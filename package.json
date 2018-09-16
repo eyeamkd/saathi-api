@@ -1,0 +1,21 @@
+{
+  "name": "saathi-api",
+  "version": "1.0.0",
+  "description": "api for saathi web app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-validator": "^5.3.0",
+    "knex": "^0.15.2",
+    "pg": "^7.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
